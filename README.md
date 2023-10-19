@@ -57,7 +57,7 @@ El código proporciona una forma de monitorear la temperatura y actuar en consec
 Se grega un componente adicional que afecta el funcionamiento del proyecto.
 El elemento implementado es una fotoresistencia
 
-# :books:  Investigación de componente adicional
+# :books:  Investigación de componente adicional: Fotoresistencia
 Una fotoresistencia, también conocida como LDR (del inglés Light Dependent Resistor) es un componente electrónico cuya resistencia varía en función de la intensidad de luz que recibe. Bajo una iluminación intensa, la resistencia disminuye, mientras que en la oscuridad su resistencia aumenta. Es un tipo de sensor muy común y se utiliza para detectar la intensidad lumínica en su entorno.
 
 En este proyecto, la fotoresistencia está conectada al pin A0. Se utiliza para medir la intensidad de luz ambiental. La lectura de la fotoresistencia se mapea a un valor de brillo para el LED rojo conectado al pin 5. Esto significa que el brillo del LED rojo variará en función de la cantidad de luz presente en el entorno. Si la temperatura supera el umbral definido, el LED rojo se encenderá con una intensidad que dependerá de la lectura de la fotoresistencia, lo que puede proporcionar una indicación visual de la intensidad de luz en condiciones de alta temperatura.
