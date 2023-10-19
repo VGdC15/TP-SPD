@@ -31,11 +31,9 @@ en la Parte 1) o los números primos en el rango de 0 a 99.
 ![parcial parte 2](https://github.com/VGdC15/TP-SPD/assets/113645765/912a4fd1-83e7-45c6-aff9-83262130a2a2)
 
 # :books: Investigación de componente adicional
--Motor de cc
-Un motor de corriente continua (CC) es un dispositivo que convierte la energía eléctrica en energía mecánica. Se compone de un estator y un rotor y opera según el principio de la ley de Lorentz, que establece que un conductor que transporta corriente en presencia de un campo magnético experimenta una fuerza. Esta fuerza hace que el rotor gire, lo que a su vez produce movimiento mecánico.
-Funcionamiento:
+Un motor de aficionado, o un ventilador, en el contexto de Arduino se refiere a un motor eléctrico simple que se utiliza para generar flujo de aire o para crear una corriente de aire dirigida. En el proyecto proporcionado, el motor aficionado se utiliza para controlar la temperatura de un entorno. Cuando la temperatura medida por el sensor supera un umbral específico (40 grados Celsius en este caso), el motor se enciende para enfriar el ambiente.
 
-Los motores de corriente continua funcionan con una corriente que fluye en una dirección específica a través de un conjunto de bobinas, generando un campo magnético. La interacción entre este campo magnético y un campo magnético fijo en el estator produce un par motor que impulsa el movimiento del rotor.
+El ventilador actúa como un componente de control de temperatura, ayudando a mantener la temperatura del entorno por debajo de un cierto nivel. Cuando la temperatura excede el umbral establecido, el motor del ventilador se activa para reducir la temperatura. Esto se logra mediante la conexión del motor aficionado a uno de los pines de salida de Arduino, permitiendo que el código encienda y apague el motor según las condiciones especificadas. De esta manera, el ventilador se convierte en un dispositivo esencial para controlar el entorno térmico de manera automática y eficiente.
 
 # :zap: Enlace al proyecto de Tinkercard
 <https://www.tinkercad.com/things/fnFg3GUNil5>
