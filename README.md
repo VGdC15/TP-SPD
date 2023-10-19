@@ -31,10 +31,19 @@ Se sustituyen los botones por un interruptor deslizante (switch) de dos posicion
 Dependiendo de la posición del interruptor, el display muestra o bien el contador (como
 en la Parte 1) o los números primos en el rango de 0 a 99.
 
-# :books: Investigación de componente adicional
+# :books: Investigación de componente adicional: Motor de aficionado
 Un motor de aficionado, o un ventilador, en el contexto de Arduino se refiere a un motor eléctrico simple que se utiliza para generar flujo de aire o para crear una corriente de aire dirigida. En el proyecto proporcionado, el motor aficionado se utiliza para controlar la temperatura de un entorno. Cuando la temperatura medida por el sensor supera un umbral específico (40 grados Celsius en este caso), el motor se enciende para enfriar el ambiente.
 
 El ventilador actúa como un componente de control de temperatura, ayudando a mantener la temperatura del entorno por debajo de un cierto nivel. Cuando la temperatura excede el umbral establecido, el motor del ventilador se activa para reducir la temperatura. Esto se logra mediante la conexión del motor aficionado a uno de los pines de salida de Arduino, permitiendo que el código encienda y apague el motor según las condiciones especificadas. De esta manera, el ventilador se convierte en un dispositivo esencial para controlar el entorno térmico de manera automática y eficiente.
+
+# :books: Investigación de componente adicional: Sensor de Temperatura
+El sensor de temperatura en el código proporcionado se utiliza para medir la temperatura ambiente. En el código, el sensor de temperatura está conectado al pin `A1` del Arduino. 
+Se utiliza un sensor de temperatura TMP36, que proporciona una señal de voltaje proporcional a la temperatura ambiente. 
+El valor de voltaje se convierte a una temperatura en grados Celsius utilizando una fórmula específica.
+
+En el código, el sensor de temperatura se utiliza para controlar un ventilador conectado al pin `A3`. Cuando la temperatura medida por el sensor supera el umbral establecido de 40 grados Celsius, el motor del ventilador se enciende. De lo contrario, el motor del ventilador se apaga. Este enfoque permite mantener la temperatura del entorno dentro de un rango deseado, ya que el ventilador se activa automáticamente para enfriar el entorno cuando la temperatura aumenta.
+
+El código proporciona una forma de monitorear la temperatura y actuar en consecuencia utilizando el sensor de temperatura y el ventilador.
 
 # :sparkler: Enlace al proyecto de Tinkercard
 <https://www.tinkercad.com/things/fnFg3GUNil5>
