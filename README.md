@@ -67,5 +67,13 @@ En resumen, la fotoresistencia se utiliza en este proyecto para regular la inten
 # :sparkler: Enlace al proyecto de Tinkercard
 <https://www.tinkercad.com/things/gFWkpXJAQOI>
 
+# :computer: Parcial domiciliario parte 4
+![parte 4](https://github.com/VGdC15/TP-SPD/assets/113645765/ec9b5d9d-6b8f-4708-9706-ff8aac535daf)
+
+# Descripción
+Implementación al proyecto que el interruptor deslizante de la parte dos tenga la función de encender y apagar el sistema, solo mostrando los números primos.
+# :sparkler: Enlace al proyecto de Tinkercard
+<https://www.tinkercad.com/things/iMqJklwoBBG>
+
 
 
